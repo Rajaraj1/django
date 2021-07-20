@@ -11,3 +11,4 @@ def form(request):
     d = request.GET.get('fcheck')
     dic = {'name': a,'pass':b,'text':c,'check':d}
     return render(request,'form.html',dic)
+    
